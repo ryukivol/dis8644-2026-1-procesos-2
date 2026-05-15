@@ -43,7 +43,9 @@
   
   Aquí una foto de mi primer esquematico!!
   ![esquematico](./imagenes/esquematico.png).
-
+  
+  Aquí foto de mi primer pcb 3d :), cache que se puede variar las formas de las placas
+  ![placa](./imagenes/placa.png).
 ---
 
 ##  Experiencia yo antoloch
