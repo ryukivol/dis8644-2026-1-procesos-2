@@ -36,7 +36,7 @@ Después comenzamos a trabajar con las pistas, que son líneas de cobre dentro d
 Se recomienda trabajar con dos medidas de pistas:
 
 - 0.4 mm
-- 0.5 mm
+- 0.8 mm
 
 Para enrutar pistas se utiliza la herramienta de trazado de pistas, donde también se puede configurar el grosor.
 Primero aprendimos a realizar las conexiones positivas utilizando pistas de 0.8 mm. Luego, usamos pistas de 0.4 mm para las conexiones entre componentes.
