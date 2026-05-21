@@ -51,9 +51,9 @@ Cuando un archivo ya está creado y guardado, se abre desde la extensión:
 |**`Ctrl + D`**| Duplicar | 
 **`Ctrl + Z`**| Volver atrás  | 
 
-> *Antes de pasar a la placa PCB, debemos dejar en claro las “Huellas” (footprints); pues estas son prácticamente el sentido de vida de nuestras placas, ya que ellas son el estado físico, real, y tangible de nuestros componentes en la vida real.
+> *Antes de pasar a la placa PCB, debemos dejar en claro las “Huellas” (footprints); pues estas son prácticamente el sentido de vida de nuestras placas, ya que ellas son el estado físico, real, y tangible de nuestros componentes en la vida real.*
 
-> Entonces, primeramente, siempre asegurarnos de las medidas de nuestros componentes y ponerlos en coherencia con el que corresponda.*
+> *Entonces, primeramente, siempre asegurarnos de las medidas de nuestros componentes y ponerlos en coherencia con el que corresponda.*
 
 ## 3.	La pcb (nuestra placa real)
 ## 4.	Encargo para la siguiente clase.
