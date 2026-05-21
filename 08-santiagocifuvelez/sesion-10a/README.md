@@ -41,6 +41,10 @@ Cuando un archivo ya está creado y guardado, se abre desde la extensión:
 |                     |`Battery_cell = Batería`|   
 |                     |`Speaker = parlante`  
 |**`ESC (escape)`**| Para deseleccionar todo, y tener el cursor libre para seleccionar u hacer otras cosas.|
+|**`R`**| Rotar componente 360. |
+|**`X`**| Mirror componente en el eje X. |
+|**`Y`**| Mirror componente en el eje y. |
+|**`M (move)`**| Mover solo componentes sin cables (igualmente te aparecerá un warning cuando esto suceda).. |
 
 
 ## 3.	Como buscar componentes (los que más solemos usar)
