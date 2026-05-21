@@ -44,8 +44,13 @@ Cuando un archivo ya está creado y guardado, se abre desde la extensión:
 |**`R`**| Rotar componente 360. |
 |**`X`**| Mirror componente en el eje X. |
 |**`Y`**| Mirror componente en el eje y. |
-|**`M (move)`**| Mover solo componentes sin cables (igualmente te aparecerá un warning cuando esto suceda).. |
-
+|**`M (move)`**| Mover solo componentes sin cables (igualmente te aparecerá un warning cuando esto suceda). |
+|**`G (grab) `**| Mover todo lo seleccionado con el mouse; aquí si se mueve todo lo que selecciones; cables, textos, etc. |
+|**`E`**| Editamos el valor, y varias propiedades de un componente. | 
+|**`V`**| Podemos escribir/cambiar los valores a los componentes. | 
+|**`Ctrl + S`**| **Save (SIEMPRE HACER CTRL + S).** | 
+|**`Ctrl + D`**| Duplicar | 
+**`Ctrl + Z`**| Volver atrás  | 
 
 ## 3.	Como buscar componentes (los que más solemos usar)
 ## 4.	La pcb (nuestra placa real)
