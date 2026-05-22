@@ -42,7 +42,7 @@ Nos coordinamos para que cada uno investigue de chips que les interesaria probar
 Llegar con un esquematico que nos gustaria probar para el vioernes pasarlo a la protoboard
 
 ## **INVESTIGACION**
-
+CD4040: Contador vinario, dispersor de frecuencia 
 secuenciador ritmico: LM3914 (lineal)
 Controla 10 LEDs directamente, no necesitas transistores adicionales, el chip se encarga de darles la corriente exacta sin quemarlos.
 
@@ -64,3 +64,8 @@ Desplazamiento de 8 bits se desplazan en las transiciones baja a alta de la entr
 
 CD LM339
 divide el voltaje en 4 tiempos 
+
+## **TEXTO: HACIA UNA FILOSOFIA DE LA FILOSOFIA**
+
+Cap 4:
+Cap 5:
