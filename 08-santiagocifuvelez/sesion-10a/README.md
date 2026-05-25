@@ -34,7 +34,7 @@ Con lo anteriormente mencionado, el scanner está hecho para scannear lugares cu
 
 Los Osciladores Controlados por Voltaje, son circuitos electrónicos que generan una señal como una onda, *(una señal que oscila jiji),* y la frecuencia cambia dependiendo del voltaje de entrada.
 
-Aquí va una imagen
+![img3](./imagenes/img3.jpg)
 
 Y estas oscilaciones, se controlan con los potenciómetros, que son lo que nos permiten jugar con el flujo de la energía. 
 
