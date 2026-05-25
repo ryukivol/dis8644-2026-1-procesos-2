@@ -18,6 +18,11 @@ Transferencia simbolica -> Inestabilidad incluso en algo tan estructural como un
 
 - Cada exposición es una nueva versión del proyecto ya que se ven los contextos especificos, por cara curador que habla representando el proyecto
 
+
+![Planos 386](./imagenes/apunte-uno.jpg)
+
+![Planos 386](./imagenes/apunte-dos.jpg)
+
 ---
 
 Escaner que tiene un laser que choca con el mundo
@@ -42,6 +47,10 @@ AL FINAL TODO ES CUESTIÓN DE PERSPECTIVA CHAVALES!
 
 ## Fin de la charla y apuntes de la clase:
 
+![Planos 386](./imagenes/clase_1.jpg)
+
+![Planos 386](./imagenes/clase_2.webp)
+
 IC P11 4046 -> caja negra que convierte el voltaje en frecuencia
 
 *se puede cambiar sin una resistencia y usar otro aparato* 
@@ -53,6 +62,8 @@ Si es un voltaje bajo es más lento y si es el voltaje más alto entonces es má
 VCO: Oscilador controlado por voltaje
 
 4017 + potenciometro : genera un voltaje ajustado, el cual pasa a un 4046 y al variar el voltaje, se harán variables los tonos del chip.
+
+![Planos 386](./imagenes/apunte-3.jpg)
 
 ---
 
@@ -69,3 +80,23 @@ Al ir al video, este contendra un link...que está caido
 Pero siempre se puede volver en el tiempo:
 
 <https://web.archive.org/web/20220513113911/http://www.frisnit.com/roland-tr-808-cowbell-rebuild/>
+
+---
+
+## Cap 4 y 5 GO!
+
+El capítulo 4 aborda el acto de tomar fotografías, y Flusser lo compara con una especie de cacería (bien salvaje). Sin embargo, no la sitúa en espacios abiertos, sino dentro de un bosque lleno de objetos. Según él, el fotógrafo no está persiguiendo algo en el mundo exterior, sino explorando las posibilidades que la misma camara permite (por el hecho de ser una caja negra con sus limitantes). La realidad termina siendo más un punto de partida, que el objetivo principal.
+
+También menciona que la fotografía tiene un carácter antiideológico, ya que no existe un punto de vista absoluto capaz de imponerse sobre todos los demás. Siempre hay muchisimas  perspectivas posibles y el fotógrafo no escoge necesariamente la "mejor" sino la más acta para ser fotografiada.
+
+"Por tanto, cualquier cosa que el fotógrafo capture debe traducirse en una situación"
+
+Ya para el cap 5, el señor Flusser analiza la fotografía como *objeto*. remarca que las imágenes en blanco y negro no existen realmente en el mundo tal como lo percibimos nosotres, debido a que el blanco y el negro representan condiciones extremas: *la ausencia total o la presencia completa de luz*
+
+Desde esa perspectiva, una fotografía en blanco y negro no reproduce la realidad así tal cual. En cuanto a las fotografías a color, aunque suelen parecer más cercanas a lo real, también son construcciones irreales, la diferencia es que disimulan mejor eso, aunque sigan siendo falsas
+
+*Un ejemplo son como en las cámaras se pueden ver los ambientes más iluminados de lo que vemos realmente con nuestros ojos*
+
+Al final nuetro autor sostiene que la fotografía no presenta el mundo en sí, sino ideas o conceptos sobre él (por ello las imagenes tecnicas). Para él, las fotografías más logradas son aquellas en las que el fotógrafo consigue la victoria sobre las limitaciones y posibilidades programadas de la cámara, logrando que sus propias intenciones prevalezcan, dando así una pequeñisima victoria del humano ante la maquina.
+
+WOOOOOOOOOOOOPI 	¬( ` ω ´ )/
