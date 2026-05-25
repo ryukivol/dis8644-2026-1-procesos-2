@@ -1,5 +1,7 @@
 # sesion-10a
 
+### Flusser, cap. 4, 5
+
 En el capítulo 4 y 5, Vilém Flusser sigue hablando de la relación entre el fotógrafo y la cámara, pero ahora más enfocado en cómo funciona el acto de fotografiar y lo que realmente son las fotografías. 
 
 Explica que sacar una foto no es solamente capturar algo que existe en la realidad, porque la cámara funciona con programas y posibilidades ya definidas.
