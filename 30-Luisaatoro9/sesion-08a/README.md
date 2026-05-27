@@ -16,6 +16,9 @@ KiCad es un software gratuito y de código abierto para diseñar circuitos elect
 <img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/b992d8c8-2743-44f6-b66c-69fd399d32dc" />
 <img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/8bbf9abf-fcec-4967-b539-5887335464ce" />
 <img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/981ca00a-6a43-44c2-aa67-1e5010734aa3" />
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/b9984307-42a8-48b9-a809-c06807d98c79" />
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/78ba44ec-d562-4c00-8eb3-69e76e2297ff" />
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/7d8f178e-75cd-4fd0-baa1-0a1f8377274f" />
 
 </div>
 
@@ -29,6 +32,14 @@ Es un circuito analógico clásico que genera sonidos electrónicos raros y dist
 ---
 
 ### Lo que se hizo en KiCad
+
+<div align="center">
+
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/63d50c5a-4b72-46e6-a49d-6a288c7e55c6" />
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/73ad0369-91cc-4bdc-b016-c35f6b167c8c" />
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/1fec5622-1268-4d00-92e6-2dbfc69df09d" />
+
+</div>
 
 El proceso se dividió en pasos y había que seguirlos en orden para que todo cuadrara al final.
 
