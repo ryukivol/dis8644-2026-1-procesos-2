@@ -14,37 +14,84 @@ Integrantes:
 - Angel Sabogal / angel-udp
 - Tomas Catrileo / tomascatri
   
-## Circuito 1
-
-Contador binario/ CD4040
+## Circuito 1 v01: Contador binario - CD4040
 
 ### Descripción general/conceptual 1
 
 ¿Qué hace el circuito? Intentar explicarlo para gente que no sabe electrónica. Ejemplo: escucha los impactos sobre sí mismo y lo convierte en señales de aviso para otras cosas
 
+Este circuito se categoriza como un secuenciador, es decir que genera corrientes eléctricas en un patrón repetitivo y ordenado. Un ejemplo de esto es un semáforo, ya que se va a prender siempre en el mismo orden:
+
+_VERDE > AMARILLO > ROJO > VERDE > AMARILLO > ROJO > ..._
+
+![Semáforo](./imagenes/semaforov2.gif)
+
+<br>
+
 ### Descripción de funcionamiento 1
 
 Preguntas orientadoras: ¿Qué inputs recibe? ¿Qué outputs entrega? ¿Cómo administra los flujos de inputs a outputs internamente? ¿Qué componente es el "corazón/cerebro"? ¿Qué truco descubrimos en el camino? ¿Especulativamente, qué se podría conectar a este módulo en el futuro?
 
-### Esquemático 1
+<br>
 
-```markdown
+Ya definimos que este sistema es un secuenciador, pero algo importante es como está configurada la duración de cada _activación_. Tal como en los semáforos no todos los colores duran lo mismo, en este circuito cada _señal_ tiene una duración única. ¿A que se refiere "duración unica"? En que cada _señal_ está asociada a un número, desde el 0 al 12 y mientras menor sea el número asociado, más rapido se va a _activar_. A continuación se puede observar una representación de este patrón
+
+![Secuencia](./imagenes/11.png)
+
+> De izquierda a derecha: Avance del tiempo
+>
+> De arriba a abajo: Q1, Q2, Q3, Q4 y Q5 = Canales
+
+<br>
+
+Esta es una secuencia binaria y de las cosas más notorias es que cada _canal_ tiene la misma duración prendido y apagado, es decir, el Q3 funciona con 4 _señales apagadas_ y 4 _señales prendidas_. Otro punto interesante es como esta duración tambien sigue un patrón
+
+| Canal / Step | Duración   |
+| ------------ | ---------- |
+| Q1           | 1 tiempo   |
+| Q2           | 2 tiempos  |
+| Q3           | 4 tiempos  |
+| Q4           | 8 tiempos  |
+| Q5           | 16 tiempos |
+
+<br>
+
+Ahora que entendemos como funciona su secuencia, vamos a profundizar más en como este circuito logra generar este proceso. Anteriormente se mencionó (y tmabien se ejemplificó en la imagen) que en cada _"tiempo"_ se van _activando_ las señales correspondientes, estos "_tiempos_" son corrientes eléctricas, es decir, que se necesita una señal intermitente y constante para activar el proceso de conteo. Esto es conocido como **reloj** o **clock**, entonces la velocidad con la que alterne este circuito afectará en como nuestro secuenciador realice su conteo.
+
+Para una mayor compresión se utilizará la siguiente analogía: Tenemos una especie de corazón (Reloj) que cada vez que late (emitir un pulso eléctrico) un semáforo prende sus luces (se activan las salidas del secuenciador)
+
+>Clickear imagen para reproducir video
+
+[![Ejemplo circuito 4040](./imagenes/sc41.png)](https://youtube.com/shorts/x3a4tAwtNEM?feature=share)
+
+
+### Esquemático 
+
+
 ![esquemático circuito](./imagenes/esquematico-1.png)
-```
+
 
 ### PCB 1
 
-```markdown
-![pcb front](./imagenes/pcb-front-1.png)
-```
 
-```markdown
+![pcb front](./imagenes/pcb-front-1.png)
+
+
+
 ![pcb back](./imagenes/pcb-back-1.png)
-```
+
 
 ### Documentación audiovisual funcionamiento protoboard 1
 
-Incluir enlace a video en youtube (puede estar en Oculto) con protoboard funcionando
+Clickear imagenes para reproducir video
+
+[![Ejemplo circuito 4040](./imagenes/sc42.png)](https://youtu.be/7QSAAqquWV8)
+
+[![Ejemplo circuito 4040](./imagenes/sc43.png)](https://youtu.be/X4rYO5dJ6EY)
+
+[![Ejemplo circuito 4040](./imagenes/sc44.png)](https://youtu.be/25J13NA67AE)
+
+<br>
 
 ## Circuito 2
 
