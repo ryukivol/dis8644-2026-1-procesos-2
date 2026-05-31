@@ -19,3 +19,8 @@ Luego de hacer estos cambios, el esquemático quedó de la siguiente manera:
 Con estos cambios el primer circuito quedó funcionando en la protoboard, por lo que nos dividimos el trabajo con nuestros compañeros y mientras unos armaban en la protoboard el segundo circuito, yo hacía cambios en esquemáticos y armaba la pcb. Luego de terminar de hacer ésto, nos dimos cuenta que el segundo circuito no estaba respondiendo pero no pudimos seguir trabajando ya que Misa y Aarón empezaron a presentar a la clase el nuevo estándar, el cual es el siguiente:
 
 ![Estándar hecho por les profesores, no me pertenece](./imagenes/estandar.png)
+
+También nos dieron una lista de huellas estándar!! la pueden encontrar dentro de ``dis8644-2026-1-procesos-2/00-proyecto-02
+/estandares.md`` o haciendo click en el siguiente link: <https://github.com/nicolasvaldesgreve/dis8644-2026-1-procesos-2/blob/main/00-proyecto-02/estandares.md>. De igual manera, aquí dejo un screenshot de la tabla:
+
+![Huellas para todos!! aporte de Misa](./imagenes/huellas.png)
