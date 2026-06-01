@@ -18,11 +18,12 @@ Durante toda la clase nos enfocamos en hacer funcionar la Propuesta 1. El objeti
 ![protoboard-1](https://github.com/paulafuentesm/dis8644-2026-1-procesos-2/blob/d82b160f21bbb9a748114124d96aa79e0149bc64/12-paulafuentesm/sesion-11b/imagenes/protoboard-1.jpg)
 
 ### 1er intento 
+----
 
 Armamos el circuito siguiendo el esquemático desarrollado en la clase anterior e incorporamos las correcciones que habíamos identificado durante la revisión ( foto anterior). Al conectar el parlante a la salida de audio observamos que el circuito generaba pulsaciones y que los potenciómetros modificaban correctamente el comportamiento del LED. Sin embargo, el parlante no emitía sonido o este era extremadamente bajo. En algunos momentos las pulsaciones luminosas del LED parecían coincidir con el sonido, pero posteriormente dejaban de hacerlo, generando resultados inconsistentes. Esto nos indicó que parte del circuito estaba funcionando, aunque existía algún problema en la etapa de audio o en la transmisión de la señal.
 
 ### 2do intento
-
+----
 Tras aproximadamente veinte minutos intentando encontrar el error, decidimos desmontar completamente el circuito y volver a armarlo desde cero. Aunque ya nos resultaba menos frustrante que en experiencias anteriores, fue necesario revisar cada conexión para descartar errores de montaje.
 
 Una vez reconstruido el circuito, realizamos dos salidas distintas para comprobar si el problema se encontraba en una sección específica del diseño. Gracias a esta prueba pudimos concluir que esa parte del circuito estaba funcionando correctamente. Sin embargo, el sonido seguía siendo muy bajo y, después de un tiempo, dejó de escucharse por completo, mientras que el LED continuaba funcionando con normalidad ( locura). Esto nos permitió decir que la alimentación estaba llegando al circuito y que el problema probablemente se encontraba en e la señal de audio o en alguna conexión incorrecta relacionada con la amplificación o el oscinador ( creemos que mas por el amplificador).
