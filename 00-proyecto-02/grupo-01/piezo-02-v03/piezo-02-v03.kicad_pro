@@ -488,7 +488,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "v2.kicad_pro",
+    "filename": "piezo-02-v03.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -643,18 +643,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "v2.kicad_sch",
-        "name": "Raíz",
+        "filename": "piezo-02-v03.kicad_sch",
+        "name": "piezo-02-v03",
         "uuid": "b54a11f0-abe7-4a8a-8cec-6701cdb2f4de"
       }
     ],
-    "used_designators": "R9",
+    "used_designators": "#FLG1-2,R9",
     "variants": []
   },
   "sheets": [
     [
       "b54a11f0-abe7-4a8a-8cec-6701cdb2f4de",
-      "Raíz"
+      "piezo-02-v03"
     ]
   ],
   "text_variables": {},

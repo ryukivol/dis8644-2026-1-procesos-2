@@ -2404,7 +2404,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:VBUS"
+		(symbol "power:PWR_FLAG"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -2418,8 +2418,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2429,8 +2429,8 @@
 					)
 				)
 			)
-			(property "Value" "VBUS"
-				(at 0 3.556 0)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2461,7 +2461,7 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(property "Description" "Special symbol for telling ERC where power comes from"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2472,7 +2472,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "global power"
+			(property "ki_keywords" "flag power"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2483,46 +2483,8 @@
 					)
 				)
 			)
-			(symbol "VBUS_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VBUS_1_1"
-				(pin power_in line
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
 					(at 0 0 90)
 					(length 0)
 					(name ""
@@ -2538,6 +2500,20 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -2764,6 +2740,12 @@
 		(uuid "4d9f554a-94e1-4171-b24d-50431d5307a2")
 	)
 	(junction
+		(at 113.03 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5864fd7a-cf02-4056-985e-751d13071464")
+	)
+	(junction
 		(at 64.77 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2776,6 +2758,12 @@
 		(uuid "6387a7c8-4585-4006-a4c8-3954356feac2")
 	)
 	(junction
+		(at 21.59 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "811af292-c0fc-49db-a16c-edbc5a622390")
+	)
+	(junction
 		(at 105.41 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2786,6 +2774,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c5978fa2-5bb0-4389-927b-1087daaca9de")
+	)
+	(junction
+		(at 21.59 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6188803-faf1-4cde-8a3a-107dabdcac64")
 	)
 	(junction
 		(at 50.8 152.4)
@@ -2821,7 +2815,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 52.07) (xy 167.64 88.9)
+			(xy 167.64 52.07) (xy 167.64 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2888,16 +2882,6 @@
 			(type default)
 		)
 		(uuid "12e20faa-b18d-4275-92f4-3af60a172871")
-	)
-	(wire
-		(pts
-			(xy 113.03 138.43) (xy 113.03 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13c7dd9a-6ddc-4ffc-9384-e880796be0cc")
 	)
 	(wire
 		(pts
@@ -3011,6 +2995,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 52.07) (xy 172.72 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a2575c2-e913-47d1-98ab-df91d1563449")
+	)
+	(wire
+		(pts
 			(xy 140.97 57.15) (xy 144.78 57.15)
 		)
 		(stroke
@@ -3068,6 +3062,16 @@
 			(type default)
 		)
 		(uuid "4d5e2a66-87d4-4833-9512-65ebd2908d28")
+	)
+	(wire
+		(pts
+			(xy 92.71 68.58) (xy 92.71 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51359815-acc7-4540-96a5-2fe891db6e29")
 	)
 	(wire
 		(pts
@@ -3201,6 +3205,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 106.68) (xy 92.71 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ff85848-5fa5-4152-bac5-5b759f1aa5d7")
+	)
+	(wire
+		(pts
 			(xy 50.8 152.4) (xy 66.04 152.4)
 		)
 		(stroke
@@ -3231,7 +3245,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 69.85) (xy 21.59 76.2)
+			(xy 21.59 69.85) (xy 21.59 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3261,16 +3275,6 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 91.44) (xy 21.59 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "980fc31b-de0e-45a7-8a12-d8468cf62261")
-	)
-	(wire
-		(pts
 			(xy 237.49 52.07) (xy 237.49 60.96)
 		)
 		(stroke
@@ -3288,6 +3292,16 @@
 			(type default)
 		)
 		(uuid "9b8539d4-5fb5-4cd0-8034-6dfd54a39342")
+	)
+	(wire
+		(pts
+			(xy 21.59 71.12) (xy 29.21 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a206a5a5-410a-4ddc-b824-7f318a445194")
 	)
 	(wire
 		(pts
@@ -3328,6 +3342,16 @@
 			(type default)
 		)
 		(uuid "b0a3b7c1-1f44-4055-8071-ab0f2dcf1a0c")
+	)
+	(wire
+		(pts
+			(xy 21.59 71.12) (xy 21.59 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1839457-ceeb-45aa-9ad7-cc068f1c5aeb")
 	)
 	(wire
 		(pts
@@ -3421,6 +3445,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 106.68) (xy 113.03 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb2b7de1-7f64-4ce3-9765-a629e02509ce")
+	)
+	(wire
+		(pts
 			(xy 139.7 80.01) (xy 146.05 80.01)
 		)
 		(stroke
@@ -3428,6 +3462,16 @@
 			(type default)
 		)
 		(uuid "ce65548e-259c-4f3d-af40-b0b85e80cd77")
+	)
+	(wire
+		(pts
+			(xy 21.59 91.44) (xy 21.59 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5babe13-f6c1-4ca0-ac99-45f37341521b")
 	)
 	(polyline
 		(pts
@@ -3471,16 +3515,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 52.07) (xy 167.64 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc5e0ada-1f69-46a6-b9f2-d8c775266737")
-	)
-	(wire
-		(pts
 			(xy 113.03 162.56) (xy 113.03 167.64)
 		)
 		(stroke
@@ -3501,6 +3535,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 91.44) (xy 21.59 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7454544-85dc-4d27-953f-c096878a11f0")
+	)
+	(wire
+		(pts
 			(xy 123.19 62.23) (xy 123.19 80.01)
 		)
 		(stroke
@@ -3511,16 +3555,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 68.58) (xy 92.71 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f03ad182-42ab-40b5-ab75-ee321e8bb04f")
-	)
-	(wire
-		(pts
 			(xy 128.27 57.15) (xy 133.35 57.15)
 		)
 		(stroke
@@ -3528,6 +3562,16 @@
 			(type default)
 		)
 		(uuid "f0de867e-a19c-4502-8413-bb5a7c8680f1")
+	)
+	(wire
+		(pts
+			(xy 113.03 106.68) (xy 167.64 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f361b796-c276-490a-944b-d7ea1c3f8060")
 	)
 	(wire
 		(pts
@@ -3651,7 +3695,7 @@
 			(uuid "225171ce-aa42-4254-88ec-d70712c24b31")
 		)
 		(instances
-			(project "v2"
+			(project "piezo-02-v03"
 				(path "/b54a11f0-abe7-4a8a-8cec-6701cdb2f4de"
 					(reference "C6")
 					(unit 1)
@@ -3729,7 +3773,7 @@
 			(uuid "65fc600d-3176-413a-8c64-a42fdbef773d")
 		)
 		(instances
-			(project "v2"
+			(project "piezo-02-v03"
 				(path "/b54a11f0-abe7-4a8a-8cec-6701cdb2f4de"
 					(reference "#PWR04")
 					(unit 1)
@@ -3809,7 +3853,7 @@
 			(uuid "3e616d82-c6a8-4fa5-b0bc-623a470c4a1c")
 		)
 		(instances
-			(project "v2"
+			(project "piezo-02-v03"
 				(path "/b54a11f0-abe7-4a8a-8cec-6701cdb2f4de"
 					(reference "R5")
 					(unit 1)
@@ -3887,7 +3931,7 @@
 			(uuid "5c7b8cf9-ad2a-46af-899d-1734f54091c7")
 		)
 		(instances
-			(project "v2"
+			(project "piezo-02-v03"
 				(path "/b54a11f0-abe7-4a8a-8cec-6701cdb2f4de"
 					(reference "#PWR02")
 					(unit 1)
@@ -3967,7 +4011,7 @@
 			(uuid "47b9e635-be9c-4cfd-b644-1e47acc9e6ef")
 		)
 		(instances
-			(project "v2"
+			(project "piezo-02-v03"
 				(path "/b54a11f0-abe7-4a8a-8cec-6701cdb2f4de"
 					(reference "C8")
 					(unit 1)
@@ -4051,7 +4095,7 @@
 			(uuid "aa637975-ced2-4d0a-8953-24ec5bddd35f")
 		)
 		(instances
-			(project "v2"
+			(project "piezo-02-v03"
 				(path "/b54a11f0-abe7-4a8a-8cec-6701cdb2f4de"
 					(reference "J1")
 					(unit 1)
@@ -4167,7 +4211,7 @@
 			(uuid "bd932b12-687e-4062-b73b-02115d5b3ff2")
 		)
 		(instances
-			(project "v2"
+			(project "piezo-02-v03"
 				(path "/b54a11f0-abe7-4a8a-8cec-6701cdb2f4de"
 					(reference "U1")
 					(unit 4)
@@ -4249,7 +4293,7 @@
 			(uuid "b0fbfc55-c64f-46c0-a9c1-91309ce5d7e1")
 		)
 		(instances
-			(project "v2"
+			(project "piezo-02-v03"
 				(path "/b54a11f0-abe7-4a8a-8cec-6701cdb2f4de"
 					(reference "C2")
 					(unit 1)
@@ -4325,7 +4369,7 @@
 			)
 		)
 		(instances
-			(project "v2"
+			(project "piezo-02-v03"
 				(path "/b54a11f0-abe7-4a8a-8cec-6701cdb2f4de"
 					(reference "H1")
 					(unit 1)
@@ -4441,7 +4485,7 @@
 			(uuid "bd932b12-687e-4062-b73b-02115d5b3ff3")
 		)
 		(instances
-			(project "v2"
+			(project "piezo-02-v03"
 				(path "/b54a11f0-abe7-4a8a-8cec-6701cdb2f4de"
 					(reference "U1")
 					(unit 2)
@@ -4556,7 +4600,7 @@
 			(uuid "d5d2eed7-d309-4a12-bcf4-6745388bc3b3")
 		)
 		(instances
-			(project "v2"
+			(project "piezo-02-v03"
 				(path "/b54a11f0-abe7-4a8a-8cec-6701cdb2f4de"
 					(reference "BT1")
 					(unit 1)
@@ -4634,7 +4678,7 @@
 			(uuid "73bbe6d9-5cfd-4dea-a19e-3f29b3bb3190")
 		)
 		(instances
-			(project "v2"
+			(project "piezo-02-v03"
 				(path "/b54a11f0-abe7-4a8a-8cec-6701cdb2f4de"
 					(reference "#PWR012")
 					(unit 1)
@@ -4716,7 +4760,7 @@
 			(uuid "62ad31d0-1f68-43a8-bf42-fa71d012c1fb")
 		)
 		(instances
-			(project "v2"
+			(project "piezo-02-v03"
 				(path "/b54a11f0-abe7-4a8a-8cec-6701cdb2f4de"
 					(reference "R3")
 					(unit 1)
@@ -4798,7 +4842,7 @@
 			(uuid "cbd0edee-765c-4fd1-bb88-48269c12036f")
 		)
 		(instances
-			(project "v2"
+			(project "piezo-02-v03"
 				(path "/b54a11f0-abe7-4a8a-8cec-6701cdb2f4de"
 					(reference "C1")
 					(unit 1)
@@ -4914,7 +4958,7 @@
 			(uuid "8fd309c1-e974-4321-90ea-51940c9db05c")
 		)
 		(instances
-			(project "v2"
+			(project "piezo-02-v03"
 				(path "/b54a11f0-abe7-4a8a-8cec-6701cdb2f4de"
 					(reference "RV1")
 					(unit 1)
@@ -4990,7 +5034,7 @@
 			)
 		)
 		(instances
-			(project "v2"
+			(project "piezo-02-v03"
 				(path "/b54a11f0-abe7-4a8a-8cec-6701cdb2f4de"
 					(reference "H3")
 					(unit 1)
@@ -5068,7 +5112,7 @@
 			(uuid "f2569cc3-528f-472b-ba02-eb15af84ed42")
 		)
 		(instances
-			(project "v2"
+			(project "piezo-02-v03"
 				(path "/b54a11f0-abe7-4a8a-8cec-6701cdb2f4de"
 					(reference "#PWR07")
 					(unit 1)
@@ -5150,7 +5194,7 @@
 			(uuid "07f301c6-6c0d-400b-85cd-6f672c293451")
 		)
 		(instances
-			(project "v2"
+			(project "piezo-02-v03"
 				(path "/b54a11f0-abe7-4a8a-8cec-6701cdb2f4de"
 					(reference "R2")
 					(unit 1)
@@ -5226,7 +5270,7 @@
 			)
 		)
 		(instances
-			(project "v2"
+			(project "piezo-02-v03"
 				(path "/b54a11f0-abe7-4a8a-8cec-6701cdb2f4de"
 					(reference "H4")
 					(unit 1)
@@ -5336,7 +5380,7 @@
 			(uuid "8ff689f2-1f39-4dd0-90ab-3724d19eb354")
 		)
 		(instances
-			(project "v2"
+			(project "piezo-02-v03"
 				(path "/b54a11f0-abe7-4a8a-8cec-6701cdb2f4de"
 					(reference "Q1")
 					(unit 1)
@@ -5452,7 +5496,7 @@
 			(uuid "bd932b12-687e-4062-b73b-02115d5b3ff4")
 		)
 		(instances
-			(project "v2"
+			(project "piezo-02-v03"
 				(path "/b54a11f0-abe7-4a8a-8cec-6701cdb2f4de"
 					(reference "U1")
 					(unit 1)
@@ -5530,7 +5574,7 @@
 			(uuid "29f68c08-fda8-4255-be23-f644ab0ddfb8")
 		)
 		(instances
-			(project "v2"
+			(project "piezo-02-v03"
 				(path "/b54a11f0-abe7-4a8a-8cec-6701cdb2f4de"
 					(reference "#PWR06")
 					(unit 1)
@@ -5609,7 +5653,7 @@
 			(uuid "bfb3c2c3-4e25-49a2-a281-9f8aac8e2c71")
 		)
 		(instances
-			(project "v2"
+			(project "piezo-02-v03"
 				(path "/b54a11f0-abe7-4a8a-8cec-6701cdb2f4de"
 					(reference "R6")
 					(unit 1)
@@ -5687,7 +5731,7 @@
 			(uuid "4061033a-6146-40aa-96b4-61aca38e05e5")
 		)
 		(instances
-			(project "v2"
+			(project "piezo-02-v03"
 				(path "/b54a11f0-abe7-4a8a-8cec-6701cdb2f4de"
 					(reference "#PWR013")
 					(unit 1)
@@ -5769,7 +5813,7 @@
 			(uuid "ca7e0bd2-8123-492b-b217-ba50415c6e30")
 		)
 		(instances
-			(project "v2"
+			(project "piezo-02-v03"
 				(path "/b54a11f0-abe7-4a8a-8cec-6701cdb2f4de"
 					(reference "R9")
 					(unit 1)
@@ -5847,7 +5891,7 @@
 			(uuid "57e76172-42e3-4ba3-85f7-610597d9c3ea")
 		)
 		(instances
-			(project "v2"
+			(project "piezo-02-v03"
 				(path "/b54a11f0-abe7-4a8a-8cec-6701cdb2f4de"
 					(reference "#PWR09")
 					(unit 1)
@@ -5925,7 +5969,7 @@
 			(uuid "3216a97b-f530-4020-af61-39213214cc05")
 		)
 		(instances
-			(project "v2"
+			(project "piezo-02-v03"
 				(path "/b54a11f0-abe7-4a8a-8cec-6701cdb2f4de"
 					(reference "#PWR03")
 					(unit 1)
@@ -6005,7 +6049,7 @@
 			(uuid "5a322793-c700-4101-a420-8d98200a3197")
 		)
 		(instances
-			(project "v2"
+			(project "piezo-02-v03"
 				(path "/b54a11f0-abe7-4a8a-8cec-6701cdb2f4de"
 					(reference "R8")
 					(unit 1)
@@ -6087,7 +6131,7 @@
 			(uuid "e5e59363-3c24-49f2-a078-ccecb5fb943d")
 		)
 		(instances
-			(project "v2"
+			(project "piezo-02-v03"
 				(path "/b54a11f0-abe7-4a8a-8cec-6701cdb2f4de"
 					(reference "C4")
 					(unit 1)
@@ -6165,87 +6209,9 @@
 			(uuid "2df802d1-56a1-45e4-8c62-f9b703c338bd")
 		)
 		(instances
-			(project "v2"
+			(project "piezo-02-v03"
 				(path "/b54a11f0-abe7-4a8a-8cec-6701cdb2f4de"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 92.71 90.17 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9c9c0139-e237-4924-b835-616e11d79350")
-		(property "Reference" "#PWR08"
-			(at 92.71 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 92.71 95.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 92.71 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "eb1148e7-41bb-4ccb-aff3-0a48acfea076")
-		)
-		(instances
-			(project "v2"
-				(path "/b54a11f0-abe7-4a8a-8cec-6701cdb2f4de"
-					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -6325,7 +6291,7 @@
 			(uuid "1859ff5f-06f8-406d-99ab-d65e62e0c319")
 		)
 		(instances
-			(project "v2"
+			(project "piezo-02-v03"
 				(path "/b54a11f0-abe7-4a8a-8cec-6701cdb2f4de"
 					(reference "C5")
 					(unit 1)
@@ -6404,7 +6370,7 @@
 			(uuid "546b3190-a584-4779-9a16-e5e6d9a9b398")
 		)
 		(instances
-			(project "v2"
+			(project "piezo-02-v03"
 				(path "/b54a11f0-abe7-4a8a-8cec-6701cdb2f4de"
 					(reference "R7")
 					(unit 1)
@@ -6522,7 +6488,7 @@
 			(uuid "bd932b12-687e-4062-b73b-02115d5b3ff5")
 		)
 		(instances
-			(project "v2"
+			(project "piezo-02-v03"
 				(path "/b54a11f0-abe7-4a8a-8cec-6701cdb2f4de"
 					(reference "U1")
 					(unit 5)
@@ -6598,7 +6564,7 @@
 			)
 		)
 		(instances
-			(project "v2"
+			(project "piezo-02-v03"
 				(path "/b54a11f0-abe7-4a8a-8cec-6701cdb2f4de"
 					(reference "H2")
 					(unit 1)
@@ -6676,7 +6642,7 @@
 			(uuid "32f9f32e-a616-4943-b41e-73199179c8f2")
 		)
 		(instances
-			(project "v2"
+			(project "piezo-02-v03"
 				(path "/b54a11f0-abe7-4a8a-8cec-6701cdb2f4de"
 					(reference "#PWR014")
 					(unit 1)
@@ -6756,9 +6722,88 @@
 			(uuid "ca17326c-f33a-4738-9fa2-53df58fe07ac")
 		)
 		(instances
-			(project "v2"
+			(project "piezo-02-v03"
 				(path "/b54a11f0-abe7-4a8a-8cec-6701cdb2f4de"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 30.48 91.44 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c81f41c2-46c0-4df5-9dd4-e71afdb06af9")
+		(property "Reference" "#FLG02"
+			(at 32.385 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 34.29 91.4399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 30.48 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4914f00c-7433-4392-88e0-43878ce9991f")
+		)
+		(instances
+			(project "piezo-02-v03"
+				(path "/b54a11f0-abe7-4a8a-8cec-6701cdb2f4de"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -6834,7 +6879,7 @@
 			(uuid "6e59c165-2e23-4597-8265-2ca763e03b60")
 		)
 		(instances
-			(project "v2"
+			(project "piezo-02-v03"
 				(path "/b54a11f0-abe7-4a8a-8cec-6701cdb2f4de"
 					(reference "#PWR05")
 					(unit 1)
@@ -6918,87 +6963,9 @@
 			(uuid "4dda835d-f75a-494a-964e-b77c62c6998b")
 		)
 		(instances
-			(project "v2"
+			(project "piezo-02-v03"
 				(path "/b54a11f0-abe7-4a8a-8cec-6701cdb2f4de"
 					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 113.03 138.43 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d5e2b6be-0f63-4726-a2be-71d3e7dac5e6")
-		(property "Reference" "#PWR010"
-			(at 113.03 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 113.03 133.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 113.03 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b756b101-a047-475b-aa66-d22513ebc547")
-		)
-		(instances
-			(project "v2"
-				(path "/b54a11f0-abe7-4a8a-8cec-6701cdb2f4de"
-					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -7078,9 +7045,88 @@
 			(uuid "baf61758-b433-4647-99b2-4e3c1ca904f7")
 		)
 		(instances
-			(project "v2"
+			(project "piezo-02-v03"
 				(path "/b54a11f0-abe7-4a8a-8cec-6701cdb2f4de"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 29.21 71.12 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dccae049-76ec-4a0e-b783-b4437f9477c5")
+		(property "Reference" "#FLG01"
+			(at 31.115 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 33.02 71.1199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 29.21 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0ef00998-2040-4bcf-affb-dab89520541f")
+		)
+		(instances
+			(project "piezo-02-v03"
+				(path "/b54a11f0-abe7-4a8a-8cec-6701cdb2f4de"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -7160,7 +7206,7 @@
 			(uuid "6bc53343-78fe-4a77-8487-ead92b31974c")
 		)
 		(instances
-			(project "v2"
+			(project "piezo-02-v03"
 				(path "/b54a11f0-abe7-4a8a-8cec-6701cdb2f4de"
 					(reference "R1")
 					(unit 1)
@@ -7253,87 +7299,9 @@
 			(uuid "68ffbe3c-ee84-4368-a813-ea22125728d6")
 		)
 		(instances
-			(project "v2"
+			(project "piezo-02-v03"
 				(path "/b54a11f0-abe7-4a8a-8cec-6701cdb2f4de"
 					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 167.64 88.9 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eb66d06f-286c-4478-a056-8b867948d164")
-		(property "Reference" "#PWR011"
-			(at 167.64 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 167.64 93.98 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 167.64 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 167.64 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "966c0de1-c2b0-4635-b757-3568279f9334")
-		)
-		(instances
-			(project "v2"
-				(path "/b54a11f0-abe7-4a8a-8cec-6701cdb2f4de"
-					(reference "#PWR011")
 					(unit 1)
 				)
 			)
