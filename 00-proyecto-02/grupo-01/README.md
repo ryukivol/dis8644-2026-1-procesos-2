@@ -67,7 +67,16 @@ Incluir enlace a video en youtube (puede estar en Oculto) con protoboard funcion
 | Resistencia 1 KΩ | 8 | $90 | <https://www.electroardu.cl/resistencias-1k-ohm?srsltid=AfmBOor81HKrzfoOTnLK3FU6ObPuf1EPUVMS0naCwqMNIzGt8LYDiUYt> |
 | Resistencia 10 KΩ | 4 | $90 | <https://www.electroardu.cl/resistencias-1k-ohm?srsltid=AfmBOor81HKrzfoOTnLK3FU6ObPuf1EPUVMS0naCwqMNIzGt8LYDiUYt> |
 | Resistencia 100 KΩ | 5 | $90 | <https://www.electroardu.cl/resistencias-1k-ohm?srsltid=AfmBOor81HKrzfoOTnLK3FU6ObPuf1EPUVMS0naCwqMNIzGt8LYDiUYt> |
-
+| Condensador cerámico 4.7 nF | 1 | $100 | <https://www.mechatronicstore.cl/condensadores-ceramicos-distintos-valores/> |
+| Condensador cerámico 10 nF | 1 | $100 | <https://www.mechatronicstore.cl/condensadores-ceramicos-distintos-valores/> |
+| Condensador cerámico 100 nF | 4 | $100 | <https://www.mechatronicstore.cl/condensadores-ceramicos-distintos-valores/> |
+| Condensador polarizado 10 µF | 2 | $100 | <https://www.mechatronicstore.cl/condensador-capacitorio-de-electrolitico-por-unidad-varios-valores/>|
+| Condensador polarizado 100 µF | 3 | $100 | <https://www.mechatronicstore.cl/condensador-capacitorio-de-electrolitico-por-unidad-varios-valores/>|
+| Cables dupont 40 uni. | 1 | $2.990 | <https://mcielectronics.cl/shop/product/cable-dupont-macho-macho-20cm-pack-40-unidades-2/> |
+| Cables caimán | 2 | $1.990 | <https://www.mechatronicstore.cl/cable-conector-cocodrilo-o-caiman-5-unidades/> |
+| Batería 9V recargable | 1 | $7.990 | <https://www.sodimac.cl/sodimac-cl/articulo/110251085/bateria-recargable-9v/110251089> |
+| Conector batería | 1 | $1.990 | <https://mcielectronics.cl/shop/product/conector-para-baterias-de-9v-9800/?srsltid=AfmBOorf4iqHmZZbBCSLCPoI-UFTBMuBMtXEwLw-ia48KteW5jir8sIx> |
+| Piezo | 1 | $990 | <https://www.mechatronicstore.cl/sensor-piezoelectrico-27mm-con-cable/> |
 
 ## Circuito 2
 
