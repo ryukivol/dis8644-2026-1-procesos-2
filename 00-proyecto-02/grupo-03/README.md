@@ -17,7 +17,7 @@ Integrantes:
 ## Circuito 1
 
 Título módulo 1
-
+-
 ### Descripción general/conceptual 1
 
 ¿Qué hace el circuito? Intentar explicarlo para gente que no sabe electrónica. Ejemplo: escucha los impactos sobre sí mismo y lo convierte en señales de aviso para otras cosas
@@ -29,7 +29,7 @@ Preguntas orientadoras: ¿Qué inputs recibe? ¿Qué outputs entrega? ¿Cómo ad
 ### Esquemático 1
 
 
-![esquemático circuito](./imagenes/oscilador-v02.png)
+![esquemático circuito](./imagenes/esquematico-1.jpg)
 
 
 ### PCB 1
@@ -53,7 +53,7 @@ Título módulo 2
 ### Descripción general/conceptual 2
 
 ¿Qué hace el circuito? Intentar explicarlo para gente que no sabe electrónica. Ejemplo: escucha los impactos sobre sí mismo y lo convierte en señales de aviso para otras cosas
-
+Este circuito genera una señal eléctrica que sube y baja de forma rítmica y continua, como un latido o un pulso. La velocidad de ese pulso se puede controlar manualmente con un potenciómetro, y la señal resultante sale por un conector de audio. (revisar)
 ### Descripción de funcionamiento 2
 
 Preguntas orientadoras: ¿Qué inputs recibe? ¿Qué outputs entrega? ¿Cómo administra los flujos de inputs a outputs internamente? ¿Qué componente es el "corazón/cerebro"? ¿Qué truco descubrimos en el camino? ¿Especulativamente, qué se podría conectar a este módulo en el futuro?
@@ -61,7 +61,7 @@ Preguntas orientadoras: ¿Qué inputs recibe? ¿Qué outputs entrega? ¿Cómo ad
 ### Esquemático 2
 
 
-![esquemático circuito](./imagenes/oscilador-v03.png)
+![esquemático circuito](./imagenes/esquematico-2.jpg)
 
 
 ### PCB 2
@@ -86,10 +86,10 @@ Preguntas orientadoras: ¿Qué inputs recibe? ¿Qué outputs entrega? ¿Cómo ad
 
 ### ¿Cómo ayudé a otro grupo?
 
-Lorem ipsum
+Le proporcionamos ayuda al grupo que tambien estaba haciendo osciladores, prestandole potenciometros. 
 
 ### ¿Cómo me ayudó otro grupo?
 
-lorem ipsum
+Le daremos créditos especiales al grupo de piezos, quienes fueron de gran ayuda, ya que gracias a ellos resolvimos muchas dudas que nos surgieron a lo largo del proyecto. Al haber pasado por los mismos problemas que nosotros, nos ayudaron con la gráfica, nos prestaron potenciómetros, resolvieron dudas de bitácora y nos brindaron mucho apoyo emocional. También nuestro compañero Nicolás Miranda nos ayudó con las conexiones de la protoboard, ya que al inicio no logramos que sonara como oscilador, no existían variaciones y nos frustramos. Consultamos con Nico y él revisó el esquemático y la protoboard, llegando a la conclusión de que teníamos cables mal conectados.
 
 ## Bibliografía
