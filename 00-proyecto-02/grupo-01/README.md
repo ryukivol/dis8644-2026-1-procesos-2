@@ -50,7 +50,7 @@ Para afinar la señal que recibe el inversor, colocamos un filtro low-pass, esto
 
 ### Esquemático 
 
-![esquemático circuito](./imagenes/esquematico-1.png)
+![esquemático circuito](./imagenes/esquematico-1.jpg)
 
 ### PCB 1
 
