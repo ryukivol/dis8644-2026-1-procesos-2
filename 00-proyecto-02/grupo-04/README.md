@@ -75,13 +75,9 @@ La señal producida por el CD40106 luego pasa por una segunda etapa formada por 
 
 ### PCB 1
 
-```markdown
 ![pcb front](./imagenes/pcb-front-1.png)
-```
 
-```markdown
 ![pcb back](./imagenes/pcb-back-1.png)
-```
 
 ### Documentación audiovisual funcionamiento protoboard 1
 
