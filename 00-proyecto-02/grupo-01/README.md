@@ -16,7 +16,7 @@ Integrantes:
 
 ## Circuito 1
 
-Título módulo 1
+maincra
 
 ### Descripción general/conceptual 1
 
@@ -96,7 +96,7 @@ Incluir enlace a video en youtube (puede estar en Oculto) con protoboard funcion
 
 ## Circuito 2
 
-Título módulo 2
+Budumtz
 
 ### Descripción general/conceptual 2
 
@@ -112,14 +112,19 @@ El circuito se conforma por 4 partes:
 + Inversor de señal (2N2222)
 + Regulador de voltaje (L7805CV)
 
-Este circuito emplea el funcionamiento de *activador* es decir, envía señal a un módulo siguiente, el cual para verificar su funcionamiento se utiliza un led o se puede conctar a ua salida de audio utilizando un amp y parlante. 
+Este circuito emplea el funcionamiento de *activador* es decir, envía señal a un módulo siguiente, el cual para verificar su funcionamiento se utiliza un led o se puede conectar a una salida de audio utilizando un Amp y parlante. 
 
-El chip LM324 se utiliza como DC offset, regulando el voltaje bajandolo a la mitad 9V ---> 4.5V. Además cuenta con una salida de audio [pin 7] que utlizamos como salida para el siguiente modulo. De esta manera al interactuar con el piezo la señal se ve distorcionada por un breve preiodo de tiempo ya que la señal que emite el circuito es constante.
+El chip LM324 se utiliza como DC offset, regulando el voltaje bajando a la mitad 9V ---> 4.5V. Además, cuenta con una salida de audio [pin 7] que utilizamos como salida para el siguiente módulo. De esta manera al interactuar con el piezo la señal se ve distorsionada por un breve periodo de tiempo ya que la señal que emite el circuito es constante.
 
-En cuanto a los reguladores de voltaje, ya que nuestro chip LM324 ya cuenta con uno decidimos crear dos versiones, una con el standard y uno sin. 
+En cuanto a los reguladores de voltaje, ya que nuestro chip LM324 cuenta con uno decidimos crear dos versiones, una con el estándar dado para la sección y uno con el integrado en el circuito.
+
+Por otro lado, tuvimos un problema relacionado con la PCB, al ejecutar DRC da error: conexión de alivio térmico a zona incompleta al [pin 11] con el GND, problema que intentamos solucionar, pero no hubo éxito.
+
+Archivo piezo-02-v03: Con regulador estándar.
+
+Archivo piezo-02-v04: Solo regulador integrado.
 
 ### Esquemático 2
-
 
 ![esquemático circuito](./imagenes/esquematico-2.jpg)
 
@@ -163,18 +168,25 @@ Incluir enlace a video en youtube (puede estar en Oculto) con protoboard funcion
 
 ## Otros circuitos
 
-¿Usaron otro circuito temporal para activar algunas cosas? ¿para probar inputs-outputs? Detallar cuales
+En el piezo 01 usamos el HiFi Pre-Amp Circuit de [jevron1984](https://electronics.stackexchange.com/questions/348898/need-some-help-building-a-tl072-preamp-circuit). No era compatible con el circuito, después armamos un circuito propio utilizando el 2N2222, pero tampoco funcionó, por lo que lo sustituimos por el Pre-Amp de [PimPom](https://www.diyaudio.com/community/threads/tl072-as-mike-input-preamp.317907/).
+
+En el piezo 02 armamos un Amp con el LM386, siguiendo el mismo esquemático que se nos entregó por misaaaaaa en el proyecto-01.
 
 ## Colaboración con otros grupos
 
 ### ¿Cómo ayudé a otro grupo?
 
 + Ayudamos al grupo 03 (osciladores 1) prestándoles dos potenciómetros B100K.
++ Ayudamos al grupo 03 (osciladores 1) con el comando para añadir imágenes en el README.md.
++ Ayudamos al grupo 03 (osciladores 1) con la gráfica de la PCB.
++ Ayudamos al grupo 06 (percutores) prestándoles la batería.
++ Ayudamos al grupo 06 (percutores) con las pistas en su PCB.
 
 ### ¿Cómo me ayudó otro grupo?
 
 + Santiago Cifuentes del grupo 04 (osciladores 2) nos ayudó con la compra de componentes y apoyo emocional de manera constante tanto dentro como fuera de clases.
 + Yaira Ruiz nos ayudó a agregar las carpetas que contienen las huellas del curso.
++ Martína Echavarria del grupo 06 (percutores) nos ayudó cargando la batería.
 
 ## Bibliografía
 
