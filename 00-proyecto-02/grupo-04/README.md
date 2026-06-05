@@ -69,9 +69,7 @@ La señal producida por el CD40106 luego pasa por una segunda etapa formada por 
 
 ### Esquemático 1
 
-```markdown
 ![esquemático circuito](./imagenes/esquematico-1.png)
-```
 
 ### PCB 1
 
