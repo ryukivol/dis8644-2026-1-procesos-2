@@ -20,7 +20,7 @@ Aprovechamos la clase para ir a comprar algunos materiales faltantes para el exa
 
 Me gusta cómo igual te da opciones en algunos textos y la libertad que tiene al compartir estas ideas en el libro (•̪ o •̪)
 
-Algunos de los que me parecieron interesantes del capítulo 3 (hasta ahora el cap. que me ha parecido más entrete)
+Algunos de los que me parecieron interesantes del capítulo 3 (el más entrete hasta ahora a mi parecer)
 
 ![foto](./imagenes/3-1.png)
 
