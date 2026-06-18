@@ -1,5 +1,14 @@
 # Proyecto-03
 
+Número de grupo: 03
+
+Integrantes:
+
++ Vanessa García / vanessagarciaM
++ Antonia Loch / antoloch
++ Carla Núñez / ccarlabelenn
++ Ariel Orozco / arielorozco024
++ Narely Riquelme / Narelyriquelme
 ## Listado de materiales
 
 ### Comando estelar
