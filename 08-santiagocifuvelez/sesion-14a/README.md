@@ -19,5 +19,15 @@ Las placas llegaron a la Universidad Diego Portales el lunes 15 de junio, y el m
 ![](./imagenes/llegaron-las-placas.jpeg)
 
 ## 2.	Aprendimos y enseñamos a soldar. Soldamos.  
+
+![foto1](./imagenes/img1.jpg)
+![foto2](./imagenes/img2.jpg)
+![foto3](./imagenes/img3.jpg)
+![foto4](./imagenes/img4.jpg)
+![foto5](./imagenes/img5.jpg)
+![foto6](./imagenes/img6.jpg)
+![foto7](./imagenes/img7.jpg)
+![foto8](./imagenes/img8.jpg)
+
 ## 3.	Preparación para presentación del proyecto 03.  
 ## 4.	Ono, cap. 5, 6  
