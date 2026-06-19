@@ -36,3 +36,22 @@ Me senté en Illustrator a trabajar en las propuestas de las partituras. Export�
 El profesor me sugirió dejar el diseño del fondo en segundo plano por ahora y concentrarme en la especificidad de las instrucciones. Al igual que en los capítulos de Cine, la instrucción debe ser lo suficientemente precisa para guiar un proceso que, de otro modo, es incontrolable o invisible.
 
 Mi tarea ahora es dejar de lado la abstracción visual pura y ser mucho más detallada en el "qué hacer". Debo lograr que quien lea la partitura entienda exactamente cómo interactuar con el sintetizador, antes de decidir qué tan bonito se ve el papel. La instrucción bien escrita es lo que realmente permite que la pieza ocurra.
+
+### Propuestas luego de la corrección
+<img width="1191" height="843" alt="Mesa de trabajo 1_6" src="https://github.com/user-attachments/assets/ee5af18c-626e-412e-9913-5a514b1deb12" />
+
+La idea surgió observando cómo trabajábamos con la PCB durante el proceso. En lugar de mostrar el circuito como algo ordenado y completamente entendible, me interesó pensar en él como una serie de fragmentos de información que aparecen y desaparecen.
+
+Por eso el fondo está construido con partes de la placa electrónica dispersas y superpuestas. No forman una imagen completa. Son restos, huellas o fragmentos de algo mayor.
+
+La partitura tampoco funciona como una partitura tradicional. No indica notas exactas ni una melodía que deba reproducirse correctamente. Más bien funciona como un conjunto de instrucciones que orientan la escucha.
+
+La intención es que quien interpreta la pieza explore el instrumento lentamente, prestando atención a cambios muy pequeños en el sonido. Por eso aparecen indicaciones como escuchar el color del sonido, sostener una frecuencia o esperar en silencio.
+
+En ese sentido, el intérprete va construyendo la obra a partir de pequeños acontecimientos sonoros, igual que quien observa la imagen va reconstruyéndola a partir de fragmentos visuales.
+
+El nombre Fragmentos hace referencia a esa idea, fragmentos de circuito, fragmentos de sonido y fragmentos de instrucciones que, juntos, construyen una experiencia completa.
+
+La composición gráfica busca acompañar esa sensación. Los elementos del circuito aparecen ampliados, desenfocados y superpuestos, como si fueran recuerdos o señales parciales. No intentan explicar cómo funciona el dispositivo, sino sugerir que detrás del sonido existe una estructura que solo podemos percibir de manera incompleta.
+
+Por eso la obra se mueve constantemente entre lo visible y lo oculto, entre lo que se escucha claramente y lo que apenas se percibe.
