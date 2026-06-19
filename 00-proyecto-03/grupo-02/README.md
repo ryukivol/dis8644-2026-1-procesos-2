@@ -6,7 +6,7 @@ Tema del grupo: Secuenciador
 
 Integrantes:
 
-- Isidora Alvarez / 
+- Isidora Alvarez / isidoraalvarez
 - Dayana Pañitrur / dayanapanitrur
 - Camila Ramirez / Estrabismx
 - Angel Sabogal / angel-udp
