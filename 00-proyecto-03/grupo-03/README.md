@@ -73,7 +73,7 @@ De la misma manera, soldamos a Relo con los componentes que teníamos disponible
 
 ![placassoldadass](./imagenes/placassoldadass.jpeg)
 
-![fotogrupal](./imagenes/fotogrupo.jpeg)
+![fotogrupal](./imagenes/fotogrupal.jpeg)
 
 ## Partituras 
 
