@@ -4,7 +4,7 @@
 
 Este día fue básicamente de soldadura. Yo nunca había soldado con cautín, entonces agradezco la oportunidad de poder aprenderlo y fue muy divertida la clase. Me estoy empezando a enfermar, pero me distraje del dolor de garganta y tenía mucho ánimo.
 
-Fue un muy buen ambiente en la sala, y poder conversar con mis compañeros y ayudarnos. 
+Fue un muy buen ambiente en la sala, poder conversar con mis compañeros y ayudarnos. 
 
 
 ![proceso1](./imagenes/proceso1.png/)
