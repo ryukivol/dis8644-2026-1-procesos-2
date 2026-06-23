@@ -2,24 +2,6 @@
 
 Clase 9 de mayo
 
-# Apuntes
-
-* Misa mostró discos que ha escuchado y recopilado desde Instagram y blogs; al final del mes los organiza en tablas de Markdown.
-
-* Si se habla de partituras, también se habla del **canto gregoriano**.
-
-* Existen letras que se leen siguiendo una determinada sucesión.
-
-* También mostró corales y observamos varias partituras.
-
-* **Semiótica** = disciplina que estudia los signos, los símbolos y los procesos de comunicación.
-
-* Vimos partituras de **gamelán**.
-
-* Revisamos varias obras de **John Cage**, donde buscaba desprenderse del ego dentro del proceso compositivo y cuestionaba las formas tradicionales de interpretar instrumentos como el piano.
-
-***
-
 # Avance en clases
 
 * **MakerWorld** = página donde se pueden encontrar modelos 3D personalizables sin necesidad de tener muchos conocimientos de modelado o impresión 3D.
