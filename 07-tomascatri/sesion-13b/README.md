@@ -17,24 +17,26 @@ Martes 16 de junio
 * Vimos partituras de **gamelán**.
 
 * Revisamos varias obras de **John Cage**, donde buscaba desprenderse del ego dentro del proceso compositivo y cuestionaba las formas tradicionales de interpretar instrumentos como el piano.
-* 
+
 ## Avances
 
-Investigando, pense en una idea de que usaramos cables pogo magneticos los cuales se conectan a energía o datos de forma automática mediante imanes que alinean y unen pequeñas puntas metálicas con resortes internos (pines pogo). Al juntarse, el imán mantiene la presión constante, permitiendo una conexión segura y de liberación rápida sin puertos tradicionales.
-Esto daria juego a un sintetizador modular magnetico que no requiera de conexiones tradicionales y volveria la propuesta mas versatil al tener imanes, se puede cambiar de modulos rapidamente.
+* Investigando, pensé en la idea de utilizar **cables pogo magnéticos**, los cuales permiten conectarse a energía o transmitir datos automáticamente mediante imanes que alinean y unen pequeñas puntas metálicas con resortes internos (*pines pogo*). Al conectarse, el imán mantiene una presión constante, permitiendo una conexión segura y de liberación rápida sin utilizar puertos tradicionales.
 
-https://www.kickstarter.com/projects/2012099678/patchblocks-programmable-mini-synth-modules?lang=es
+* Esto podría dar lugar a un **sintetizador modular magnético** que no requiera conexiones tradicionales, haciendo la propuesta más versátil, ya que los módulos podrían intercambiarse rápidamente gracias al sistema magnético.
 
-https://www.youtube.com/watch?v=UP35iosHA_s
+* Referencia encontrada:
+  * https://www.kickstarter.com/projects/2012099678/patchblocks-programmable-mini-synth-modules?lang=es
 
-Buscando encontre a estos referenes de sintetizadores con imanes los cuales realizaron un prototipo
+* Video de referencia:
+  * https://www.youtube.com/watch?v=UP35iosHA_s
 
-Tambien quise buscar referencia de cajas acrilicas y estas sentia que sentia que iban bien con lo magnetico:
+* Buscando referencias encontré estos sintetizadores con imanes que llegaron a realizar un prototipo.
+
+* También quise buscar referencias de **cajas acrílicas**, ya que sentía que combinaban bien con la idea magnética:
 
 ![referencias](./imagenes/referencia-1.jpeg)
 
 ![referencias](./imagenes/referencia-2.jpeg)
-
 
 * **MakerWorld** = página donde se pueden encontrar modelos 3D personalizables sin necesidad de tener muchos conocimientos de modelado o impresión 3D.
 
@@ -42,13 +44,11 @@ Tambien quise buscar referencia de cajas acrilicas y estas sentia que sentia que
 
 * Misa también comentó que podríamos crear nuestras propias resistencias; por ejemplo, utilizando lápiz grafito, ya que el grafito conduce electricidad.
 
-* También discutimos ideas relacionadas con la carcasa del proyecto. Pensamos en separarla en dos módulos debido a la posible humedad que podría generarse al combinar el sistema con plantas. la carcasa, pensamos en separalo en dos modulos debio a la posible humedad que se podria generar al combinarlo con las plantas.
-
+* También discutimos ideas relacionadas con la carcasa del proyecto. Pensamos en separarla en dos módulos debido a la posible humedad que podría generarse al combinar el sistema con plantas.
 
 ## Propuesta final
 
-Al final nos sentamos con la idea de un solo modulo funcional y que tuvieramos de inspiracion la naturaleza o las plantas y que las integraramos de manera que conviva con los componentes, lo cual entra en conflicto ya que la humedad puede ser un problema, pero entiendo que es resolvible.
+* Finalmente, nos quedamos con la idea de desarrollar un solo módulo funcional inspirado en la naturaleza o en las plantas, integrándolas de manera que convivan con los componentes electrónicos.
 
-Tambien que usaramos y soldaramos todas las placas y ver cual nos servia dependiendo de lo que querramos hacer
-
+* Esta idea genera ciertos desafíos debido a la humedad, que podría afectar al sistema; sin embargo, entendemos que es un problema resoluble mediante diseño y aislamiento adecuados.
 
