@@ -1,8 +1,70 @@
 # sesion-13a  
 Martes 9 de Junio
 
+No pude estar muy presente en esta sesión, tuve que atender mis compromisos y me llenaron el pelo de laca. Volví con un fuckass bob
+
+# Guía de exportación desde KiCad
+
+Antes de exportar la PCB, es importante revisar que las zonas de cobre estén correctamente rellenadas y ejecutar **DRC (Design Rules Checker)** para detectar posibles errores antes de enviar los archivos finales.
+
+---
+
+## 1. Selección de capas para exportación
+
+Para que el fabricante acepte el diseño, hay que incluir las capas necesarias dentro de la sección **Trazar (Plot)**.
+
+Las capas obligatorias son (7):
+
+- **Edge.Cuts:** define el contorno y forma final de la placa.
+- **F.Cu:** capa de cobre frontal (superior).
+- **B.Cu:** capa de cobre trasera (inferior).
+- **F.Mask:** máscara de soldadura frontal.
+- **B.Mask:** máscara de soldadura trasera.
+- **F.Silkscreen:** serigrafía frontal, textos y elementos visuales.
+- **B.Silkscreen:** serigrafía trasera.
+
+---
+
+## 2. Generación de archivos
+
+### Archivos Gerber
+
+Desde la ventana de **Trazar (Plot)** se selecciona la carpeta de destino y se ejecuta la opción **Trazar**.
+
+Esto genera los archivos **.gbr**, que contienen la información necesaria de cada capa de la PCB para su fabricación.
+
+### Archivos de taladrado
+
+Luego se debe seleccionar **Generar archivos de taladrado**.
+
+Estos archivos son importantes porque indican dónde deben realizarse los agujeros de la placa. Se generan archivos con extensión **.drl**.
+
+---
+
+## 3. Revisión y entrega final
+
+### Revisión con Visor Gerber
+
+Antes de enviar los archivos, se recomienda abrirlos en el visor Gerber de KiCad para comprobar:
+
+- Que el contorno de la placa esté correctamente definido.
+- Que los agujeros coincidan con los pads.
+- Que las capas estén alineadas correctamente.
+
+### Compresión de archivos
+
+Para entregar los archivos al fabricante, se deben seleccionar todos los archivos generados:
+
+- Archivos **.gbr**
+- Archivos **.drl**
+- Archivo **.gbrjob**
+
+Luego comprimirlos en un archivo **.zip**.
+
+---
+
 # Proyecto 03  
-(50% de la nota final)
+Última entrega y 50% de la nota final.
 
 ## Evaluación Individual
 
@@ -37,22 +99,50 @@ El libro tiene instrucciones para hacer obras de arte imaginarias, este capítul
 
 Estas fueron las piezas que más capturaron mi atención: 
 
-![bitacora-13-a](imagenes/pieza-grabada-v-pomelo-yoko-ono.png)  
+<table>
+<tr>
+<td width="40%">
+<img src="imagenes/pieza-grabada-v-pomelo-yoko-ono.png">
+</td>
+<td width="60%">
 
-Esta pieza parece una observación de algo muy cotidiano y repetitivo, algo tan habitual que termina pareciendo natural e incluso invisible. La acción de peinarse es algo que se realiza todos los días y no parece tener nada extraordinario. Pero al llegar al final de la instrucción, la obra cambia de sentido. Ya no se trata solo de registrar una rutina diaria, sino de acumular una memoria de esa persona a lo largo del tiempo (hasta la muerte... X o X).
+Esta pieza parece una observación de algo muy cotidiano y repetitivo, algo tan habitual que termina pareciendo natural e incluso invisible. La acción de peinarse es algo que se hace todos los días y no parece tener nada extraordinario. Pero al llegar al final de la instrucción, la obra cambia de sentido. Ya no se trata solo de registrar una rutina diaria, sino de acumular una memoria de esa persona a lo largo del tiempo (hasta la muerte... X o X).
 
 Estas instrucciones llevan la atención desde la acción cotidiana hacia el paso del tiempo, la memoria y la muerte. Me llamó la atención cómo una acción tan simple puede adquirir un peso tan grande a través de una instrucción. Me hace pensar que lo que hacemos todos los días podría contener un valor que normalmente no percibimos, y que solo se vuelve evidente cuando aparece la posibilidad de la enfermedad, la ausencia o la muerte.
 
-![bitacora-13-a](imagenes/pieza-de-sandwich-de-atun-pomelo-yoko-ono.png)  
+</td>
+</tr>
+</table>
 
-No sé como explicar esta con palabras, solo me imagino lo que pueda pasar mientras me esconda hasta morir. ¿Qué tiene que ver con el sonido, qué voy a hacer mientras me esconda? Nadie además de mi va a ser testigo de lo que pase cuando esté escondida ¿puedo estar en silencio?. Instrucciones muy amplias... pero muy determinantes, por que son hasta morir.
+<table>
+<tr>
+<td width="40%">
+<img src="imagenes/pieza-de-escondite-pomelo-yoko-ono.png">
+</td>
+<td width="60%">
 
-![bitacora-13-a](imagenes/pieza-de-sandwich-de-atun-pomelo-yoko-ono.png)  
+No sé como explicar esta con palabras, solo me imagino lo que pueda pasar mientras me esconda hasta morir. ¿Qué tiene que ver con el sonido, qué voy a hacer mientras me esconda? Nadie además de mi va a ser testigo de lo que pase cuando esté escondida ¿puedo estar en silencio? Instrucciones muy amplias... pero muy determinantes, porque son hasta las muerte...
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="40%">
+<img src="imagenes/pieza-de-sandwich-de-atun-pomelo-yoko-ono.png">
+</td>
+<td width="60%">
+
 : 3  yo quiero estar ahí, aunque no como atún. Esta no me hizo pensar directamente, solo me transporté a esa sensación (ohmmm).
+
+</td>
+</tr>
+</table>
 
 ## 2. Pintura
 
-Aquí se proponen obras que existen a través de la imaginación. Aunque se presentan como pinturas, no son objetos terminados. Su realización depende completamente de quien las lee y de la forma en que decide imaginarlas o realizarlas.
+Aquí se proponen obras que existen a través de la imaginación. Aunque se presentan como pinturas, no son objetos terminados. Su realización depende completamente de quien las lee y de la forma en que decide imaginarlas o llevarlas a cabo.
 
 Veo estas piezas como imágenes que se forman en la mente. Más que describir una pintura específica, las instrucciones funcionan para construir una imagen mental propia. Todos podemos imaginar algo distinto a partir de la misma propuesta, por lo que la obra nunca queda completamente definida y permanece abierta a múltiples interpretaciones.
 
