@@ -2,36 +2,37 @@
 
 ## integrantes
 
+nombre - [cuenta-github](https://github.com/montoyamoraga)
+
+## criterios de diseño del sistema
+
+inspiración para construir, desde donde partieron
+
+contexto desde Chile, desde nuestra disponibilidad material
+
+nombre de sistema/instrumento construido por medio de módulos
+
+## placas soldadas
+
+nombres de placas armadas
+
+principio de funcionamiento de cada una
+
+qué tipo de señal entrega a la salida, qué recibe
+
+lista de materiales con costos. Incluir tiempo de soldadura
+
+## carcasa
+
+decisiones materiales y formales de la carcasa
+
+inspiración y referentes (con cita)
+
 ## composición
 
 partitura e interpretación
 
-detallar operación de la partitura, como se creó, cuales fueron los referentes (citando), cual es la
+detallar operación de la partitura, como se creó, cuales fueron los referentes (citando), cual es la simbología
 
-## placas soldadas
+## bibliografía
 
-##
-
-ASPECTOS
-FORMALES
-Requisitos de entrega: Desarrollo de presentacion digital y requisitos del Taller
-Dialogo con la comisión: discurso coherente con el proyecto a presentar y uso adecuado del lenguaje
-Tiempo de presentación: Uso adecuado del tiempo.
-
-"ANTECEDENTES
-FUNDAMENTOS"
-Análisis y diagnóstico: del contexto dónde se inscribe el proyecto, su usuario y/o público objetivo.
-Identificación de oportunidad de diseño: en el contexto análizado
-"Desarrollo argumentativo: aplicación de criterios de diseño en los procesos de proyectación y desarrollo de proyecto.
-"
-
-"DESARROLLO TÉCNICO
-CALIDAD DEL PROYECTO"
-Desarrollo y uso eficiente de elementos y herramientas técnicas del proyecto.
-Factibilidad técnica supuesta para el proyecto.
-Calidad y oficio: en el desarrollo y comunicación del proyecto
-
-"ORIGINALIDAD
-COHERENCIA"
-"Originalidad: propuesta novedosa y coherente en relación al contexto en dónde se inscribe la propuesta, que signifique un aporte a la disciplina.
-"
