@@ -2,7 +2,11 @@
 
 ## integrantes
 
-nombre - [cuenta-github](https://github.com/bla)
++ Antonia Loch - [cuenta-github](https://github.com/bla)
++ Narely Riquelme - [cuenta-github](https://github.com/bla)
++ Ariel Orozco - [cuenta-github](https://github.com/bla)
++ Vanessa García - [cuenta-github](https://github.com/bla)
++ Carla Nuñez - [cuenta-github](https://github.com/bla)
 
 ## criterios de diseño del sistema
 
